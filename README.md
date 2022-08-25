@@ -1,3 +1,3 @@
-# github-2ugqsf-mknxb1
+# Gym App - Mobile Programming Apps activity
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/github-2ugqsf-mknxb1)
+Informative Gym App using Ionic Framework with StackBlitz.
