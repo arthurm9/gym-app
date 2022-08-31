@@ -4,12 +4,10 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true" color="light">
-  <ion-searchbar showCancelButton="focus" placeholder="Search"></ion-searchbar>
-  <ion-card>
+<ion-content [fullscreen]="true" color="preto">
+  <ion-card color="dark">
     <ion-card-header>
-      <ion-card-subtitle>saiba dividir o seu treinamento</ion-card-subtitle>
-      <ion-card-title><strong>Divisão de Treinos</strong></ion-card-title>
+      <ion-card-title><strong>DIVISÃO DE TREINO</strong></ion-card-title>
     </ion-card-header>
 
     <ion-card-content>
@@ -20,24 +18,127 @@
       </p>
       <br />
       <p>As divisões de treino mais utilizadas e conhecidas são:</p>
-      <ul>
-        <li>ABCABC</li>
-        <li>ABCDE</li>
+      <ul class="divisions">
+        <li>
+          <ion-chip color="warning" style="font-size: 20px">ABC-ABC</ion-chip>
+        </li>
+        <li>
+          <ion-chip color="warning" style="font-size: 20px">ABCDE </ion-chip>
+        </li>
       </ul>
     </ion-card-content>
   </ion-card>
 
-  <ion-card>
+  <ion-card color="dark">
     <ion-card-header>
-      <ion-card-title> ABCABC </ion-card-title>
+      <ion-card-title class="ion-text-center"> ABC-ABC </ion-card-title>
     </ion-card-header>
     <ion-card-content>
-      <p></p>
-      <ul>
-        <li>A: peito, tríceps e ombros</li>
-        <li>B: costas e bíceps</li>
-        <li>C: inferiores completo</li>
-      </ul>
+      <ion-accordion-group>
+        <ion-accordion value="first">
+          <ion-item slot="header" color="medium">
+            <ion-badge color="danger">A</ion-badge>
+            <ion-label>TREINO A - Peitoral, Tríceps e Ombros</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">
+            <ul>
+              <li>
+                <p>
+                  <strong>Aquecimento Manguito:</strong> 2 séries de 12
+                  repetições cada braço, sem carga.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Fly/Peck Deck:</strong> 2 séries de aquecimento + 4
+                  séries de 8 a 12 repetições.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Supino Inclinado (alteres):</strong> 3/4 séries de 8 a
+                  12 repetições.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Supino Reto (alteres):</strong> 3/4 séries de 8 a 12
+                  repetições.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Cross Over (polia alta):</strong> 4 séries de 8 a 12
+                  repetições.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Cross Over (polia baixa):</strong> 4 séries de 8 a 12
+                  repetições.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Tríceps Corda (polia):</strong> 2 séries de
+                  aquecimento + 4 séries de 8 a 12 repetições.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Tríceps Barra (polia):</strong> 4 séries de 8 a 12
+                  repetições.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong
+                    >Barra pequena com pegada supinada (palma para
+                    cima):</strong
+                  >
+                  4 séries de 8 a 12 repetições.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong
+                    >Barra pequena com pegada pronada (palma para
+                    baixo):</strong
+                  >
+                  4 séries de 8 a 12 repetições.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Corda com peso:</strong> 2 séries enrolando e
+                  desenrolando devagar, caso não complete, vá até falhar nas
+                  duas séries.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Elevação Lateral:</strong> 10 séries de 10 repetições
+                  com 10 segundos de descanso (pouca carga).
+                </p>
+              </li>
+            </ul>
+          </div>
+        </ion-accordion>
+        <ion-accordion value="second">
+          <ion-item slot="header" color="medium">
+            <ion-badge color="primary">B</ion-badge>
+            <ion-label>TREINO B - Inferiores Completo e Abdômen</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">Second Content</div>
+        </ion-accordion>
+        <ion-accordion value="third">
+          <ion-item slot="header" color="medium">
+            <ion-badge color="success">C</ion-badge>
+            <ion-label>TREINO C - Costas, Anterior de Ombro e Bíceps</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">Third Content</div>
+        </ion-accordion>
+      </ion-accordion-group>
     </ion-card-content>
   </ion-card>
 </ion-content>
