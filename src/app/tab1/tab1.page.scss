@@ -4,11 +4,49 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.a {
+  box-shadow: 2px 2px rgba(209, 47, 47, 0.671);
+}
+.b {
+  box-shadow: 2px 2px rgba(18, 88, 100, 0.671);
+}
+.c {
+  box-shadow: 2px 2px rgba(45, 122, 99, 0.671);
+}
+.d {
+  box-shadow: 2px 2px rgba(24, 78, 139, 0.671);
+}
+.e {
+  box-shadow: 2px 2px rgba(41, 118, 121, 0.671);
+}
+
+li {
+  list-style-type: none;
+}
+
 ion-title {
   font-size: 2rem;
   text-transform: uppercase;
   text-align: center;
   text-shadow: 3rem;
+}
+
+ion-card-header {
+  ion-card-title {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px rgb(50, 50, 50);
+  }
+}
+
+ion-item {
+  ion-badge {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.644);
+  }
+  ion-label {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(50, 50, 50);
+  }
 }
 
 .divisions {
@@ -27,7 +65,7 @@ ion-card {
 .ion-padding {
   background-color: rgb(80, 80, 80);
   p {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     color: rgb(255, 255, 255);
   }
 }
@@ -41,4 +79,13 @@ ion-badge {
   padding-bottom: 0px;
   border-radius: 2px;
   font-size: 2rem;
+}
+
+ion-chip {
+  box-shadow: 2px 2px rgba(69, 71, 41, 0.671);
+}
+
+.listImg {
+  border-radius: 10px;
+  opacity: 70%;
 }

@@ -6,18 +6,20 @@
 
 <ion-content [fullscreen]="true" color="preto">
   <ion-card color="dark">
+    <img
+      src="https://img.freepik.com/premium-photo/3d-rendering-black-dumbbells-floor-dark-concept-fitness-room-with-training-equipments-back_67155-14961.jpg"
+      alt=""
+    />
     <ion-card-header>
-      <ion-card-title><strong>DIVISÃO DE TREINO</strong></ion-card-title>
+      <ion-card-title class="ion-text-center"
+        ><strong>DIVISÃO DE TREINO</strong></ion-card-title
+      >
     </ion-card-header>
 
     <ion-card-content>
-      <p>
-        Para atingir o nível de condicionamento desejado, a divisão de treinos é
-        um fator indispesável para todos os atletas desde iniciantes até
-        profissionais.
+      <p class="ion-text-center">
+        <i>As divisões de treino mais utilizadas e conhecidas são:</i>
       </p>
-      <br />
-      <p>As divisões de treino mais utilizadas e conhecidas são:</p>
       <ul class="divisions">
         <li>
           <ion-chip color="warning" style="font-size: 20px">ABC-ABC</ion-chip>
@@ -31,94 +33,61 @@
 
   <ion-card color="dark">
     <ion-card-header>
-      <ion-card-title class="ion-text-center"> ABC-ABC </ion-card-title>
+      <ion-card-title class="ion-text-center"> CLASSIFICAÇÕES </ion-card-title>
     </ion-card-header>
+
     <ion-card-content>
       <ion-accordion-group>
         <ion-accordion value="first">
           <ion-item slot="header" color="medium">
-            <ion-badge color="danger">A</ion-badge>
-            <ion-label>TREINO A - Peitoral, Tríceps e Ombros</ion-label>
+            <ion-badge class="a" color="danger">A</ion-badge>
+            <ion-label class="ion-text-center">Peitoral e Ombros</ion-label>
           </ion-item>
+
           <div class="ion-padding" slot="content">
+            <img
+              class="listImg"
+              src="https://drmarciosilveira.com/wp-content/uploads/2018/12/capa-780x344.jpg?v=1646163548"
+              alt=""
+            />
             <ul>
               <li>
                 <p>
-                  <strong>Aquecimento Manguito:</strong> 2 séries de 12
-                  repetições cada braço, sem carga.
+                  <strong>AQUECIMENTO DE MANGUITO </strong> - 2s / 12 rep. sem
+                  carga
                 </p>
               </li>
               <li>
                 <p>
-                  <strong>Fly/Peck Deck:</strong> 2 séries de aquecimento + 4
-                  séries de 8 a 12 repetições.
+                  <strong>FLY/PECK DECK </strong> - 2s aquecimento / 4s / 8 a 12
+                  rep
+                </p>
+              </li>
+              <li>
+                <p><strong>SUPINO INCLINADO </strong> - 3/4s / 8 a 12 rep</p>
+              </li>
+              <li>
+                <p><strong>SUPINO RETO </strong> - 3/4s / 8 a 12 rep</p>
+              </li>
+              <li>
+                <p><strong>CROSS OVER ALTO </strong> - 4s / 8 a 12 rep</p>
+              </li>
+              <li>
+                <p><strong>CROSS OVER BAIXO </strong> - 4d / 8 a 12 rep</p>
+              </li>
+              <li>
+                <p><strong>ELEVAÇÃO FRONTAL </strong> - 4s / 10 a 12 rep</p>
+              </li>
+              <li>
+                <p>
+                  <strong>DESENVOLVIMENTO COM ALTERES </strong> - 4s / 8 a 12
+                  rep
                 </p>
               </li>
               <li>
                 <p>
-                  <strong>Supino Inclinado (alteres):</strong> 3/4 séries de 8 a
-                  12 repetições.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Supino Reto (alteres):</strong> 3/4 séries de 8 a 12
-                  repetições.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Cross Over (polia alta):</strong> 4 séries de 8 a 12
-                  repetições.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Cross Over (polia baixa):</strong> 4 séries de 8 a 12
-                  repetições.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Tríceps Corda (polia):</strong> 2 séries de
-                  aquecimento + 4 séries de 8 a 12 repetições.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Tríceps Barra (polia):</strong> 4 séries de 8 a 12
-                  repetições.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong
-                    >Barra pequena com pegada supinada (palma para
-                    cima):</strong
-                  >
-                  4 séries de 8 a 12 repetições.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong
-                    >Barra pequena com pegada pronada (palma para
-                    baixo):</strong
-                  >
-                  4 séries de 8 a 12 repetições.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Corda com peso:</strong> 2 séries enrolando e
-                  desenrolando devagar, caso não complete, vá até falhar nas
-                  duas séries.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Elevação Lateral:</strong> 10 séries de 10 repetições
-                  com 10 segundos de descanso (pouca carga).
+                  <strong>ELEVAÇÃO LATERAL </strong> - 10s / 10 rep / 10 seg
+                  (carga baixa)
                 </p>
               </li>
             </ul>
@@ -126,17 +95,210 @@
         </ion-accordion>
         <ion-accordion value="second">
           <ion-item slot="header" color="medium">
-            <ion-badge color="primary">B</ion-badge>
-            <ion-label>TREINO B - Inferiores Completo e Abdômen</ion-label>
+            <ion-badge class="b" color="primary">B</ion-badge>
+            <ion-label class="ion-text-center">Inferiores e Abdômen</ion-label>
           </ion-item>
-          <div class="ion-padding" slot="content">Second Content</div>
+
+          <div class="ion-padding" slot="content">
+            <img
+              class="listImg"
+              src="https://p2.trrsf.com/image/fget/cf/648/0/images.terra.com/2021/12/11/1562211134-shutterstock1019665669-1.jpg"
+              alt=""
+            />
+            <ul>
+              <li>
+                <p>
+                  <strong>AGACHAMENTO LIVRE</strong> - 2s aquecimento / 4s / 8 a
+                  12 rep
+                </p>
+              </li>
+              <li>
+                <p><strong>LEG PRESS</strong> - 4s / 8 a 12 rep</p>
+              </li>
+              <li>
+                <p>
+                  <strong>CADEIRA EXTENSORA</strong> - 2s aquecimento / 4s / 8 a
+                  12 rep
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>ABDUTOR</strong> - 2s aquecimento / 4s / 8 a 12 rep
+                </p>
+              </li>
+              <li>
+                <p><strong>COICE MÁQUINA</strong> - 4s / 8 a 12 rep</p>
+              </li>
+              <li>
+                <p><strong>ELEVAÇÃO PÉLVICA</strong> - 4s / 6 a 12 rep</p>
+              </li>
+              <li>
+                <p><strong>GÊMEOS SENTADO</strong> - 5s / 8 a 12 rep</p>
+              </li>
+              <li>
+                <p><strong>ELEVAÇÃO DE PERNAS</strong> - 4s / 8 a 12 rep</p>
+              </li>
+              <li>
+                <p><strong>ABDOMINAL</strong> - 4s / 10 a 15 rep</p>
+              </li>
+              <li>
+                <p><strong>ABDOMINAL BICICLETA</strong> - 4s / 10 a 15 rep</p>
+              </li>
+              <li>
+                <p><strong>PRANCHA</strong> - 3s até a falha</p>
+              </li>
+            </ul>
+          </div>
         </ion-accordion>
+
         <ion-accordion value="third">
           <ion-item slot="header" color="medium">
-            <ion-badge color="success">C</ion-badge>
-            <ion-label>TREINO C - Costas, Anterior de Ombro e Bíceps</ion-label>
+            <ion-badge class="c" color="success">C</ion-badge>
+            <ion-label class="ion-text-center"
+              >Costas e Anterior de Ombro</ion-label
+            >
           </ion-item>
-          <div class="ion-padding" slot="content">Third Content</div>
+          <div class="ion-padding" slot="content">
+            <ul>
+              <li>
+                <p>
+                  <strong>AQUECIMENTO DE MANGUITO</strong> - 2s / 12 rep sem carga
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>PUXADA VERTICAL ABERTA</strong> - 2s aquecimento / 4s / 8 a 12 rep
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>PUXADA VERTICAL FECHADA</strong> - 4s / 8 a 12 rep
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>REMADA BAIXA</strong> - 4s / 8 a 12 rep
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>REMADA UNILATERAL</strong> - 4s / 8 a 12 rep
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>PULL DOWN</strong> - 4s / 8 a 12 rep
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>ELEVAÇÃO LOMBAR</strong> - 4s / 10 a 15 rep
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>CRUCIFIXO INVERSO</strong> - 3/4s / 8 a 12 rep
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>ELEVAÇÃO TRAPÉZIO</strong> - 4s / 8 a 12 rep
+                </p>
+              </li>
+            </ul>
+          </div>
+        </ion-accordion>
+
+        <ion-accordion value="four">
+          <ion-item slot="header" color="medium">
+            <ion-badge class="d" color="tertiary">D</ion-badge>
+            <ion-label class="ion-text-center">Inferiores e Abdômen</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">
+            <ul>
+              <li>
+                <p>
+                  <strong>MESA FLEXORA</strong> - 2s aquecimento / 4s / 8 a 12 rep
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>CADEIRA FLEXORA</strong> - 4s / 8 a 12 rep
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>STIFF</strong> - 4/5s / 8 a 12 rep
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>ADUTOR</strong> - 2s aquecimento / 4s / 8 a 12 rep
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>PANTURRILHA EM PÉ </strong> - 5s / 8 a 12 rep
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>ROLINHO</strong> - 4s / 8 a 12 movimentos
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>ABDOMINAL</strong> - 4s / 8 a 12 rep
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>ABDOMINAL BICICLETA</strong> - 4s / 8 a 12 rep
+                </p>
+              </li>
+            </ul>
+          </div>
+        </ion-accordion>
+
+        <ion-accordion value="five">
+          <ion-item slot="header" color="medium">
+            <ion-badge class="e" color="secondary">E</ion-badge>
+            <ion-label class="ion-text-center">Braço Completo</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">
+            <ul>
+              <li>
+                <p>
+                  <strong>TRÍCEPS CORDA </strong> - 2s aquecimento / 4s / 8 a 12
+                  rep
+                </p>
+              </li>
+              <li>
+                <p><strong>TRÍCEPS BARRA </strong> - 4s / 8 a 12 rep</p>
+              </li>
+              <li>
+                <p><strong>TRÍCEPS PEGADA INVERSA</strong> - 4s / 8 a 12 rep</p>
+              </li>
+              <li>
+                <p><strong>BÍCEPS BARRA W</strong> - 4s / 8 a 12 rep</p>
+              </li>
+              <li>
+                <p><strong>ROSCA SCOTT MÁQUINA</strong> - 4s / 8 a 12 rep</p>
+              </li>
+              <li>
+                <p><strong>BÍCEPS MARTELO</strong> - 4s / 8 a 12 rep</p>
+              </li>
+              <li>
+                <p><strong>BARRA PEGADA SUPINADA </strong> - 4s / 8 a 12 rep</p>
+              </li>
+              <li>
+                <p><strong>BARRA PEGADA PRONADA </strong> - 4s / 8 a 12 rep</p>
+              </li>
+              <li>
+                <p><strong>CORDINHA </strong> - 2s até o final da corda</p>
+              </li>
+            </ul>
+          </div>
         </ion-accordion>
       </ion-accordion-group>
     </ion-card-content>
