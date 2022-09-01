@@ -39,6 +39,9 @@ ion-card {
 }
 
 .ion-padding {
+  ion-card {
+    margin: auto;
+  }
   background-color: #222428;
   p {
     font-size: 1.2rem;

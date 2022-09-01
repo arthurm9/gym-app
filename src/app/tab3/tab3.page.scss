@@ -19,17 +19,6 @@ ion-card-header {
   }
 }
 
-ion-item {
-  ion-badge {
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.644);
-  }
-  ion-label {
-    text-transform: uppercase;
-    font-weight: bold;
-    text-shadow: 2px 2px rgb(50, 50, 50);
-  }
-}
-
 ion-card {
   margin-top: 10px;
   img {
@@ -50,65 +39,17 @@ ion-label {
   margin-left: 8px;
 }
 
-ion-badge {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  border-radius: 2px;
-  font-size: 2rem;
-}
-
-ion-chip {
-  box-shadow: 2px 2px rgba(69, 71, 41, 0.671);
-}
-
-.ecto {
-  border-radius: 30px;
-  height: 100%;
-  width: 76.5%;
-}
-
-.meso {
-  border-radius: 30px;
-  height: 100%;
-  width: 51%;
-}
-
-.endo {
-  border-radius: 30px;
-  height: 100%;
-  width: 51%;
-}
-
-table {
-  max-height: 2rem;
-}
-
-td {
-  margin-bottom: 1.5rem;
-}
-
-tr {
-  max-height: .5rem;
-  line-height: 1.5rem;
-  margin-bottom: 5rem;
-}
-
-tbody :first-child {
-  position: relative;
-  left: 0;
-  width: 90%;
-  th {
-    p {
-      word-wrap: break-word;
-      font-size: .8rem;
-    }
-  }
-}
-
-ion-slide {
-  font-size: 1rem;
-}
-
 .ion-padding {
   background-color: rgb(56, 57, 58);
+}
+
+ion-accordion-group {
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+
+  ion-item {
+    position: asolute;
+    bottom: 0;
+  }
 }
