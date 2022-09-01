@@ -5,18 +5,453 @@
 </ion-header>
 
 <ion-content [fullscreen]="true" color="preto">
-  <ion-list color="dark">
-    <ion-item color="dark">
-      <ion-label> Item </ion-label>
-    </ion-item>
-    <ion-item color="dark">
-      <ion-label> Item </ion-label>
-    </ion-item>
-    <ion-item color="dark">
-      <ion-label> Item </ion-label>
-    </ion-item>
-    <ion-item color="dark">
-      <ion-label> Item </ion-label>
-    </ion-item>
-  </ion-list>
+  <ion-card color="dark">
+    <ion-card-header>
+      <ion-card-title class="ion-text-center"
+        >DIETA PARA SEU BIOTIPO</ion-card-title
+      >
+    </ion-card-header>
+
+    <ion-card-content class="ion-text-center">
+      Dietas pensadas para melhor condicionamento físico e ganho de masssa
+      muscular
+    </ion-card-content>
+  </ion-card>
+  <ion-accordion-group>
+    <ion-accordion color="dark" value="first">
+      <ion-item slot="header" color="dark">
+        <ion-label class="ion-text-center">ECTOMORFO</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <h3 class="ion-text-center">CAFÉ DA MANHÃ</h3>
+        <ion-slides>
+          <ion-slide>
+            <ion-label
+              >1 xícara de chá de café sem açúcar + 2 ovos mexidos + 1 pão
+              francês integral + 1 pera média</ion-label
+            >
+          </ion-slide>
+          <ion-slide>
+            <ion-label
+              >1 xícara de chá de leite semi desnatado com 1 col sobremesa de
+              cacau em pó sem açúcar + 1 tapioca com 4 colheres de sopa de
+              tapioca, 1 col. sopa de chia, 2 fatias médias de queijo minas + 4
+              morangos
+            </ion-label>
+          </ion-slide>
+          <ion-slide>
+            <ion-label
+              >1 xícara de chá de leite de amêndoas + 1 pão francês integral + 2
+              fatias médias de queijo ricota, temperada com orégano e 1 fio de
+              azeite + 1 kiwi
+            </ion-label>
+          </ion-slide>
+        </ion-slides>
+      </div>
+      <div class="ion-padding" slot="content">
+        <h3 class="ion-text-center">LANCHE DA MANHÃ</h3>
+        <ion-slides>
+          <ion-slide>
+            <ion-label
+              >2 col sopa amendoim + 1 banana prata com 1 colher de sopa de
+              aveia em flocos
+            </ion-label>
+          </ion-slide>
+          <ion-slide>
+            <ion-label
+              >½ mamão papaia com 1 colher de sopa de aveia em flocos + 2
+              castanhas do Pará
+            </ion-label>
+          </ion-slide>
+          <ion-slide>
+            <ion-label
+              >1/2 abacate pequeno, temperado com ½ tomate picado, 1 col de chá
+              de azeite, uma pitada de sal e pimenta do reino + 2 tortilhas
+              (biscoito) de milho
+            </ion-label>
+          </ion-slide>
+        </ion-slides>
+      </div>
+      <div class="ion-padding" slot="content">
+        <h3 class="ion-text-center">ALMOÇO</h3>
+        <ion-slides>
+          <ion-slide>
+            <ion-label
+              >4 col de arroz integral + 1 concha pequena de feijão + 1 prato de
+              sobremesa com brócolis cozido, 1 tomate picado e couve flor
+              cozida, temperados com 1 col. sopa azeite + 1 posta de peixe
+              assado + 10 uvas
+            </ion-label>
+          </ion-slide>
+          <ion-slide>
+            <ion-label
+              >1 pires de macarrão integral com molho de tomate caseiro + 1
+              prato de sobremesa com vagem, cenoura e berinjela refogados em 1
+              col sopa de azeite + 2 col sopa de salada de feijão branco + 120 g
+              de bife bovino grelhado + 2 fatias médias de abacaxi
+            </ion-label>
+          </ion-slide>
+          <ion-slide>
+            <ion-label
+              >4 col. de quinoa cozida + 1 sobrecoxa de frango assada sem pele +
+              1 prato de sobremesa com repolho, cebola, alho e tomate assados +
+              2 col. sopa de salada de soja + 1 manga pequena
+            </ion-label>
+          </ion-slide>
+        </ion-slides>
+      </div>
+      <div class="ion-padding" slot="content">
+        <h3 class="ion-text-center">LANCHE DA TARDE</h3>
+        <ion-slides>
+          <ion-slide>
+            <ion-label
+              >200 g de iogurte natural integral + 1 col sopa de semente de
+              abóbora + 1 col sopa de mel
+            </ion-label>
+          </ion-slide>
+          <ion-slide>
+            <ion-label
+              >1 copo de vitamina com 150 ml de leite semidesnatado ou vegetal
+              (coco, amêndoa ou arroz), 1 col sopa de aveia em flocos e 1 maçã
+              pequena + 1 punhado de amendoim
+            </ion-label>
+          </ion-slide>
+          <ion-slide>
+            <ion-label
+              >1 banana prata média com 1 col de sopa de pasta de amendoim e 1
+              col. chá de semente de chia
+            </ion-label>
+          </ion-slide>
+        </ion-slides>
+      </div>
+      <div class="ion-padding" slot="content">
+        <h3 class="ion-text-center">JANTAR</h3>
+        <ion-slides>
+          <ion-slide>
+            <ion-label
+              >Purê de batata com 2 batatas médias + 2 coxas de frango ensopadas
+              com 3 col de sopa de quiabo + 1 pires de salada com alface, rúcula
+              e espinafre, temperada com 1 col. sopa azeite
+            </ion-label>
+          </ion-slide>
+          <ion-slide>
+            <ion-label
+              >1 batata doce média assada em rodelas + 1 posta de salmão assado
+              + 2 col. sopa de chuchu ensopado + 1 prato de sobremesa de salada
+              com repolho e cenoura fatiados e temperados com 1 col sopa de
+              azeite
+            </ion-label>
+          </ion-slide>
+          <ion-slide>
+            <ion-label
+              >1 pires de macarrão integral com molho de tomate caseiro + 3
+              almôndegas de carne + 1 prato de sobremesa com abobrinha,
+              berinjela e cenoura cozidos e temperados com 1 col de sopa de
+              azeite
+            </ion-label>
+          </ion-slide>
+        </ion-slides>
+      </div>
+      <div class="ion-padding" slot="content">
+        <h3 class="ion-text-center">CEIA</h3>
+        <ion-slides>
+          <ion-slide>
+            <ion-label
+              >1 xícara de chá de camomila + 1 fatia média de melão
+            </ion-label>
+          </ion-slide>
+          <ion-slide>
+            <ion-label
+              >1 xícara de chá de erva cidreira + 1 tangerina
+            </ion-label>
+          </ion-slide>
+          <ion-slide>
+            <ion-label>1 xícara de chá de erva cidreira + 1 laranja </ion-label>
+          </ion-slide>
+        </ion-slides>
+      </div>
+    </ion-accordion>
+    <ion-accordion color="dark" value="second">
+      <ion-item slot="header" color="dark">
+        <ion-label class="ion-text-center">MESOMORFO</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <div class="ion-padding" slot="content">
+          <h3 class="ion-text-center">CAFÉ DA MANHÃ</h3>
+          <ion-slides>
+            <ion-slide>
+              <ion-label
+                >1 xícara de chá verde + 1 tapioca feita com 4 colheres de sopa
+                de tapioca, 1 col sopa de semente de linhaça e 2 fatias médias
+                de queijo tipo minas + 1 tangerina pequena
+              </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label
+                >1 xícara de café s/açúcar + 1 pão francês integral + 2 fatias
+                médias de queijo ricota + 1 ameixa fresca
+              </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label
+                >Mingau de aveia feito com 1 xícara de leite vegetal (arroz,
+                aveia, coco), 2 col sopa de aveia em flocos finos, ½ banana
+                prata picada e 1 col café de canela em pó
+              </ion-label>
+            </ion-slide>
+          </ion-slides>
+        </div>
+        <div class="ion-padding" slot="content">
+          <h3 class="ion-text-center">LANCHE DA MANHÃ</h3>
+          <ion-slides>
+            <ion-slide>
+              <ion-label>1 kiwi médio + 2 nozes </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label
+                >1 banana média + 1 col sopa de manteiga de amendoim natural
+              </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label
+                >1 fatia pequena de melancia + 2 castanhas do Pará
+              </ion-label>
+            </ion-slide>
+          </ion-slides>
+        </div>
+        <div class="ion-padding" slot="content">
+          <h3 class="ion-text-center">ALMOÇO</h3>
+          <ion-slides>
+            <ion-slide>
+              <ion-label
+                >3 col sopa de batata doce cozida + 100 g de salmão grelhado + 2
+                col. sopa abóbora cozida + 1 prato de sobremesa de salada de
+                alface, tomate, folhas de coentro e rúcula temperada com 1 col
+                sopa de azeite + 6 morangos
+              </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label
+                >3 col. sopa de quinoa + 120 g de frango ensopado com 3 col.
+                sopa de quiabo + 2 col sopa de feijão + 1 col, sopa de cenoura
+                cozida, temperada com 1 col sobremesa de azeite + 150 ml de
+                limonada caseira s/ açúcar
+              </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label
+                >1 pires de macarrão integral com molho bolonhesa caseiro feito
+                com 1 tomate, ervas frescas e 3 col sopa de carne moída + 1
+                prato de sobremesa de salada de alface, espinafre, cebola e
+                tomate, temperada com 1 col sobremesa de azeite + 1 goiaba
+                pequena
+              </ion-label>
+            </ion-slide>
+          </ion-slides>
+        </div>
+        <div class="ion-padding" slot="content">
+          <h3 class="ion-text-center">LANCHE DA TARDE</h3>
+          <ion-slides>
+            <ion-slide>
+              <ion-label
+                >2 col sopa de abacate amassado e temperado com sal e pimenta +
+                2 tortilhas de milho
+              </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label
+                >120 g de iogurte desnatado com 1 col sopa de farinha de linhaça
+                e 1 col sobremesa de mel
+              </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label>100 ml de leite de soja + 6 uvas </ion-label>
+            </ion-slide>
+          </ion-slides>
+        </div>
+        <div class="ion-padding" slot="content">
+          <h3 class="ion-text-center">JANTAR</h3>
+          <ion-slides>
+            <ion-slide>
+              <ion-label
+                >3 col sopa de arroz integral + 120g bife bovino magro grelhado
+                + 4 col sopa de berinjela cozida + 1 pires de salada de
+                espinafre, alface e broto de feijão, temperada com 1 col sopa de
+                azeite
+              </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label
+                >Salada com: 100 g de frango grelhado em tiras, 1 prato de
+                sobremesa de salada de alface verde, alface roxa, tomate e
+                rúcula, 1 col sobremesa de azeite + 30 g de pão integral torrado
+                e picado
+              </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label
+                >1 abobrinha grande (250 g) recheada com 120 g de tofu,
+                temperada com ervas, tomate em cubos e assada + 2 col de sopa de
+                purê de batata baroa + 1 pires de salada de repolho e cenoura
+                ralados e temperados com 1 col sobremesa de azeite
+              </ion-label>
+            </ion-slide>
+          </ion-slides>
+        </div>
+        <div class="ion-padding" slot="content">
+          <h3 class="ion-text-center">CEIA</h3>
+          <ion-slides>
+            <ion-slide>
+              <ion-label
+                >1 xícara de chá de camomila + 1 pera pequena
+              </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label
+                >1 xícara de chá de cidreira + 1 maçã pequena
+              </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label
+                >1 xícara de chá de hortelã + 1 fatia média de melão
+              </ion-label>
+            </ion-slide>
+          </ion-slides>
+        </div>
+      </div>
+    </ion-accordion>
+    <ion-accordion value="third">
+      <ion-item slot="header" color="dark">
+        <ion-label class="ion-text-center">ENDOMORFO</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <div class="ion-padding" slot="content">
+          <h3 class="ion-text-center">CAFÉ DA MANHÃ</h3>
+          <ion-slides>
+            <ion-slide>
+              <ion-label
+                >200 g de iogurte natural com 1 col de sopa de mel + 1 fatia de
+                50g de pão integral com 1 fatia de queijo muçarela + 3 cols de
+                sopa de abacate amassado
+              </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label
+                >1 xícara de chá verde + 2 ovos mexidos com 1 tomate médio e 1
+                col de café de folhas de manjericão
+              </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label
+                >1 xícara de café com 200 mL de leite desnatado + 50g de pão
+                integral com 25 g de queijo muçarela + 1/2 mamão papaia (155 g)
+              </ion-label>
+            </ion-slide>
+          </ion-slides>
+        </div>
+        <div class="ion-padding" slot="content">
+          <h3 class="ion-text-center">LANCHE DA MANHÃ</h3>
+          <ion-slides>
+            <ion-slide>
+              <ion-label
+                >Café sem açúcar com 200 mL de leite semidesnatado + 10 amêndoas
+              </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label
+                >200 g de iogurte natural desnatado com 1 col de sopa de
+                sementes de linhaça + 1 tangerina média
+              </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label
+                >1 maçã média (150 g) + 3 nozes + 1 xícara de chá verde
+              </ion-label>
+            </ion-slide>
+          </ion-slides>
+        </div>
+        <div class="ion-padding" slot="content">
+          <h3 class="ion-text-center">ALMOÇO</h3>
+          <ion-slides>
+            <ion-slide>
+              <ion-label
+                >200 g de macarrão de abobrinha com molho de 50 g tomate caseiro
+                + 150 g de carne moída + salada com alface, 50 g de cenoura crua
+                ralada, 20 g de cebola e 1 col de sobremesa de azeite + 1
+                laranja pera média
+              </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label
+                >150 g de peixe assado + 3 cols de sopa de arroz integral + 1
+                xícara de pimentão, cenoura, abobrinha, berinjela e brócolis
+                salteados + 1 col de sopa de azeite + 1 fatia média (90 g) de
+                melão.
+              </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label
+                >150 g de peito de frango grelhado + 150 g de purê de
+                mandioquinha + salada de alface, rúcula, com 1 tomate médio, 20
+                g de cebola, 3 col de sopa de abacate picado, temperada com 1
+                col de sobremesa de azeite e 1 col de sobremesa de vinagre
+              </ion-label>
+            </ion-slide>
+          </ion-slides>
+        </div>
+        <div class="ion-padding" slot="content">
+          <h3 class="ion-text-center">LANCHE DA TARDE</h3>
+          <ion-slides>
+            <ion-slide>
+              <ion-label
+                >1 porção de 30g de amendoim + 1 banana com ¼ de col café de
+                canela em pó
+              </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label
+                >Vitamina com 100 g de abacate, 1 col de sopa de aveia e 200 mL
+                de leite de arroz ou leite de vaca desnatado + 10 avelãs
+              </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label
+                >1 copo de suco verde preparado com 1 folha de couve, ½ limão,
+                50 g de pepino, 200 mL de água de coco e 1 col de sopa de chia
+              </ion-label>
+            </ion-slide>
+          </ion-slides>
+        </div>
+        <div class="ion-padding" slot="content">
+          <h3 class="ion-text-center">JANTAR</h3>
+          <ion-slides>
+            <ion-slide>
+              <ion-label
+                >Omelete de espinafres com 2 ovos, 20 g de cebola, 125 g de
+                espinafre, 50 g de tomate, sal e pimenta + salada com 100 g de
+                lentilha, 50 g de brócolis e 50 g de couve flor + 1 pera média
+                (130 g)
+              </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label
+                >2 berinjelas (360 g) recheadas e gratinadas com 150 g de atum +
+                1 colher de sopa de queijo parmesão + salada com 100 g de
+                lentilha, 20g de cebola e 50 g de tomate
+              </ion-label>
+            </ion-slide>
+            <ion-slide>
+              <ion-label
+                >2 pimentões grandes (190g) recheados com 150 g de carne moída
+                refogada e 1 colher de queijo parmesão, gratinados no forno +
+                salada com 100 g de feijão vermelho, 50 g de tomate, 50 g de
+                brócolis e 50 g de cenoura ralada + 1 fatia grande (100 g) de
+                abacaxi
+              </ion-label>
+            </ion-slide>
+          </ion-slides>
+        </div>
+      </div>
+    </ion-accordion>
+  </ion-accordion-group>
 </ion-content>

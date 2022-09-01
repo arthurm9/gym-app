@@ -78,3 +78,37 @@ ion-chip {
   height: 100%;
   width: 51%;
 }
+
+table {
+  max-height: 2rem;
+}
+
+td {
+  margin-bottom: 1.5rem;
+}
+
+tr {
+  max-height: .5rem;
+  line-height: 1.5rem;
+  margin-bottom: 5rem;
+}
+
+tbody :first-child {
+  position: relative;
+  left: 0;
+  width: 90%;
+  th {
+    p {
+      word-wrap: break-word;
+      font-size: .8rem;
+    }
+  }
+}
+
+ion-slide {
+  font-size: 1rem;
+}
+
+.ion-padding {
+  background-color: rgb(56, 57, 58);
+}
