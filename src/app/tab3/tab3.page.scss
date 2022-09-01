@@ -5,8 +5,76 @@
 }
 
 ion-title {
+  color: rgb(163, 71, 71);
   font-size: 2rem;
   text-transform: uppercase;
   text-align: center;
-  text-shadow: 3rem;
+  text-shadow: 2px 2px black;
+}
+
+ion-card-header {
+  ion-card-title {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px rgb(50, 50, 50);
+  }
+}
+
+ion-item {
+  ion-badge {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.644);
+  }
+  ion-label {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(50, 50, 50);
+  }
+}
+
+ion-card {
+  margin-top: 10px;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.ion-padding {
+  background-color: #222428;
+  p {
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+  }
+}
+
+ion-label {
+  margin-left: 8px;
+}
+
+ion-badge {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 2px;
+  font-size: 2rem;
+}
+
+ion-chip {
+  box-shadow: 2px 2px rgba(69, 71, 41, 0.671);
+}
+
+.ecto {
+  border-radius: 30px;
+  height: 100%;
+  width: 76.5%;
+}
+
+.meso {
+  border-radius: 30px;
+  height: 100%;
+  width: 51%;
+}
+
+.endo {
+  border-radius: 30px;
+  height: 100%;
+  width: 51%;
 }

@@ -1,9 +1,92 @@
 <ion-header [translucent]="true">
   <ion-toolbar color="dark">
-    <ion-title><strong>BIOTYPE</strong></ion-title>
+    <ion-title><strong>BIOTYPER</strong></ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true" color="light"> 
-  <ion-searchbar showCancelButton="focus" placeholder="Search"></ion-searchbar>
+<ion-content [fullscreen]="true" color="preto">
+  <ion-card color="dark">
+    <ion-card-header>
+      <ion-card-title class="ion-text-center"
+        ><strong>QUAL SEU BIOTIPO?</strong></ion-card-title
+      >
+    </ion-card-header>
+    <ion-card-content>
+      <p class="ion-text-center"><i>Saiba identificar e se adequar</i></p>
+    </ion-card-content>
+  </ion-card>
+  <ion-slides>
+    <ion-slide>
+      <ion-card class="ecto" color="dark">
+        <img
+          src="https://mlstpbbft4hq.i.optimole.com/7NGCG7E-icQQ0X_E/w:832/h:832/q:auto/https://www.ciadocorpoacademia.com/wp-content/uploads/2020/02/caracte%C3%ADsticas-do-ectomorfo.jpeg"
+          alt=""
+        />
+        <ion-card-header>
+          <ion-card-title>ECTOMORFO</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <p>Magreza, metabolismo acelerado e ossos alongados</p>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card class="meso" color="dark">
+        <img
+          src="https://i0.wp.com/vshred.com/blog/wp-content/uploads/2021/11/Screen-Shot-2021-11-05-at-1.04.05-PM.png?fit=441%2C635&ssl=1"
+          alt=""
+        />
+        <ion-card-header>
+          <ion-card-title>MESOMORFO</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <p>Corpo musculoso, superiores desenvolvidos, corpo magro</p>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card class="endo" color="dark">
+        <img
+          src="https://www.bodybuildingmealplan.com/wp-content/uploads/endomorph-body-type.jpg"
+          alt=""
+        />
+        <ion-card-header>
+          <ion-card-title>ENDOMORFO</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <p>Fácil acumulo de gordura e ganho de peso, metabolismo lento</p>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+
+  <ion-card color="dark">
+    <ion-card-content>
+      <ion-accordion-group>
+        <ion-accordion value="first">
+          <ion-item slot="header" color="dark">
+            <ion-thumbnail>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/32/32297.png"
+                alt=""
+              />
+            </ion-thumbnail>
+            <ion-label class="ion-text-center"
+              >Como posso descobrir meu biotipo?</ion-label
+            >
+          </ion-item>
+          <div class="ion-padding" slot="content">
+            <ion-item>
+              <img
+                src="https://www.feitodeiridium.com.br/wp-content/uploads/2021/11/20191227-Teste-do-Pulso-435x377.png"
+                alt=""
+              />
+            </ion-item>
+          </div>
+        </ion-accordion>
+      </ion-accordion-group>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
