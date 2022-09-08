@@ -69,9 +69,8 @@ ion-chip {
     color: rgb(118, 120, 197);
     text-shadow: 2px 2px rgb(0, 0, 0);
   }
-  border-radius: 30px;
-  height: 100%;
-  width: 76.5%;
+  border-radius: 20px;
+  width: 68%;
 }
 
 .meso {
@@ -79,9 +78,8 @@ ion-chip {
     color: rgba(74, 155, 114, 0.89);
     text-shadow: 2px 2px rgb(0, 0, 0);
   }
-  border-radius: 30px;
-  height: 100%;
-  width: 51%;
+  border-radius: 10px;
+  width: 68%;
 }
 
 .endo {
@@ -89,7 +87,19 @@ ion-chip {
     color: rgb(163, 71, 71);
     text-shadow: 2px 2px rgb(0, 0, 0);
   }
-  border-radius: 30px;
-  height: 100%;
-  width: 51%;
+  border-radius: 10px;
+  width: 68%;
+}
+
+.testeBiotipo {
+  border-radius: 10px;
+}
+
+.ion-slides {
+  height: 40%;
+}
+
+ion-fab-button {
+  width: 40px;
+  height: 40px;
 }
